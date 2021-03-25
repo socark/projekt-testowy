@@ -1,0 +1,21 @@
+Rozdzial2
+
+git config --global user.name socark
+git config --global user.email arksocha@gmail.com
+
+mkdir projekt1
+cd projekt1
+
+git init
+echo To jest tresc nowego pliku. > Rozdzial1.txt
+git status
+
+git add Rozdzial1.txt
+git status
+git commit
+
+echo To bedzie rozdzial 1. > Rozdzial1.txt
+echo Rozdzial2 > Rozdzial2.txt
+echo Rozdzial3 > Rozdzial3.txt
+
+git add Rozdzial2.txt Rozdzial3.txt
