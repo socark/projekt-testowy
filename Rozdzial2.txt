@@ -19,3 +19,16 @@ echo Rozdzial2 > Rozdzial2.txt
 echo Rozdzial3 > Rozdzial3.txt
 
 git add Rozdzial2.txt Rozdzial3.txt
+
+git add -u
+git commit
+git log
+git checkout 667a23c
+git checkout master
+git remote add origin https://github.com/socark/projekt-testowy.git
+git branch -M main
+git push -u origin main
+git add -u
+git commit
+git push
+git clone
